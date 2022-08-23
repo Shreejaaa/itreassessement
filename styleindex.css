@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background-color: #F5E8C7;
+}
+
+
+.content ul li {
+  display: inline-block;
+}
+.content ul li a {
+  display: block;
+  padding: 9px 15px;
+  color: #87805E;
+  text-decoration: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  right :200px;
+}
+ul li a:hover {
+  color: #d04b4b;
+  background: #21202080;
+}
+#myVideo {
+position: relative;
+width:100%;
+min-width: 100%;
+min-height: 100%;
+opacity:0.8;
+
+}
+.loogo img{
+  width: 10.5%;
+  position: absolute;
+  left: 120px;
+  top:30px;
+  /* border: 3px solid white; */
+  border-radius: 50%;
+ 
+
+}
+.content {
+  position: fixed;
+  top:0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.quote{
+  border: 8px solid rgba(255, 255, 255, 0.285);
+  background-color: rgba(255, 255, 255, 0.394);
+  width: 50%;
+  height:80px;
+  position: relative;
+  top: -150px;
+  left:24%;
+  border-radius:30px;
+}
+.quote h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 19px;
+}
+.banner {
+  width: 100%;
+  height: 80px;
+  border: none;
+  position: relative;
+  top: 700px;
+  
+}
+.banner hr{
+
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border: 1 solid;
+  position: relative;
+  top:-802px
+
+}
+.henna{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+
+}
+.henna h1{
+  font-size: 90px;
+  font-weight: 600;
+  position: relative;
+  top : 10px;
+}
+.henna p{
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  position: relative;
+  top : 50px;
+}
+.row{
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.henna-col{
+  flex-basis: 32%;
+  background: #87805E;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  top : 100px;
+  
+
+}
+.henna-col img{
+  width: 100%;
+  
+}
+.henna h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.quotess{
+  border: 8px solid rgba(255, 255, 255, 0.285);
+  background-color: rgba(255, 255, 255, 0.394);
+  width: 50%;
+  height:80px;
+  position: relative;
+  top: 100px;
+  left:24%;
+  border-radius:30px;
+}
+
+.quotess h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 19px;
+}
+.banner_sec hr{
+
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border: 1 solid;
+  position: relative;
+  top:200px;
+
+}
+.banner_thir hr{
+
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border: 1 solid;
+  position: relative;
+  top:200px;
+}
+
+.image
+{
+ 
+  left: 1050px;
+  bottom:-50px;
+  position: relative;
+  
+}
+
+.textt
+{
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  bottom: 220px;
+  left : 300px;
+}
